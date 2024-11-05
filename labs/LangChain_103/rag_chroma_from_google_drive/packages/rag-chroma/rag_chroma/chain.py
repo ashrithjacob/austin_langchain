@@ -1,13 +1,16 @@
 import os
 from langchain_community.chat_models import ChatOpenAI
-from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain_community.document_loaders import GoogleDriveLoader
+#from langchain_community.document_loaders import GoogleDriveLoader
+from langchain_google_community import GoogleDriveLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel
+from pydantic import BaseModel
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def create_chain(folder_id):
@@ -18,7 +21,10 @@ def create_chain(folder_id):
         file_types=["document", "sheet", "pdf"],
         service_account_key=os.environ["GOOGLE_APPLICATION_CREDENTIALS"],
     )
+    print(os.environ["GOOGLE_APPLICATION_CREDENTIALS"])
     data = loader.load()
+    print(f"Loaded {len(data)} documents")
+    print(data)
 
     # Split
     text_splitter = RecursiveCharacterTextSplitter(
