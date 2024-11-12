@@ -1,0 +1,76 @@
+[{
+        "kind": "drive#file",
+        "userPermission": {
+            "id": "me",
+            "type": "user",
+            "role": "writer",
+            "kind": "drive#permission",
+            "selfLink": "https://www.googleapis.com/drive/v2/files/19ueTQJ8egWsNspZMC091LBE7rs4zKuwp/permissions/me",
+            "etag": "3CaAbR_CJAcsJA-4a8I_-wy21e4",
+            "pendingOwner": false
+        },
+        "selfLink": "https://www.googleapis.com/drive/v2/files/19ueTQJ8egWsNspZMC091LBE7rs4zKuwp",
+        "ownerNames": ["ashrith jacob"],
+        "lastModifyingUserName": "ashrith jacob",
+        "editable": true,
+        "writersCanShare": true,
+        "mimeType": "application/vnd.google-apps.folder", 
+        "parents": [
+            {
+                "selfLink": "https://www.googleapis.com/drive/v2/files/19ueTQJ8egWsNspZMC091LBE7rs4zKuwp/parents/1uIf3XYc_fKRxbRhp9caufVausXqG8E6z",
+                "id": "1uIf3XYc_fKRxbRhp9caufVausXqG8E6z",
+                "isRoot": false,
+                "kind": "drive#parentReference",
+                "parentLink": "https://www.googleapis.com/drive/v2/files/1uIf3XYc_fKRxbRhp9caufVausXqG8E6z"
+            }
+        ],
+        "appDataContents": false,
+        "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+shared",
+        "shared": true,
+        "lastModifyingUser": {
+            "displayName": "ashrith jacob",
+            "kind": "drive#user",
+            "isAuthenticatedUser": false,
+            "permissionId": "14016350800202960018",
+            "emailAddress": "ashrithjacob@gmail.com",
+            "picture": {
+                "url": "https://lh3.googleusercontent.com/a-/ALV-UjVd1BhkoH6P39-oQoso_QcJH-d1k-_MilWsBBFLhFDZrJF01A=s64"
+            }
+        },
+        "owners": [
+            {
+                "displayName": "ashrith jacob",
+                "kind": "drive#user",
+                "isAuthenticatedUser": false,
+                "permissionId": "14016350800202960018",
+                "emailAddress": "ashrithjacob@gmail.com",
+                "picture": {
+                    "url": "https://lh3.googleusercontent.com/a-/ALV-UjVd1BhkoH6P39-oQoso_QcJH-d1k-_MilWsBBFLhFDZrJF01A=s64"
+                }
+            }
+        ],
+        "copyable": false,
+        "etag": "MTcxMjkzNjk2NzkwNQ",
+        "alternateLink": "https://drive.google.com/drive/folders/19ueTQJ8egWsNspZMC091LBE7rs4zKuwp",
+        "embedLink": "https://drive.google.com/embeddedfolderview?id=19ueTQJ8egWsNspZMC091LBE7rs4zKuwp", 
+        "copyRequiresWriterPermission": false,
+        "spaces": ["drive"],
+        "id": "19ueTQJ8egWsNspZMC091LBE7rs4zKuwp",
+        "title": "agents",
+        "description": "agents",
+        "labels": {
+            "viewed": false,
+            "restricted": false,
+            "starred": false,
+            "hidden": false,
+            "trashed": false
+        },
+        "explicitlyTrashed": false,
+        "createdDate": "2024-04-12T15:49:27.905Z",
+        "modifiedDate": "2024-04-12T15:49:27.905Z", 
+        "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+        "quotaBytesUsed": "0",
+        "version": "6",
+        "capabilities": {"canEdit": true, "canCopy": false}
+    }
+]
